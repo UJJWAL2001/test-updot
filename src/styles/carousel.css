@@ -1,0 +1,84 @@
+
+.text{
+    font-family: 'Raleway-ExtraLight';
+    line-height: 23px;
+    font-size: 20px;
+    width: 570px;
+    position: absolute;
+    top: 256.5px;
+    right: 107px;
+}
+.cards {
+    position: relative;
+    list-style-type: none;
+    padding: 0;
+    width: 524px;
+    margin: 0;
+    margin-left: 133px;
+    margin-top: 116px;
+}
+.card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 524px;
+    height: 393px;
+    border: 1px solid #707070;
+    transform: translateY(0) translateX(0) ;
+    transform-origin: 0 0;
+    transition: transform 0.6s cubic-bezier(.8,.2,.1,0.8) 0.1s, background 0.4s linear;
+    cursor: pointer;
+    user-select: none;
+}
+.card :last-child {
+    margin-bottom: 0;
+}
+.indicators{
+    position: absolute;
+    padding-left: 60px;
+    top: 254px;
+}
+.indicator{
+    list-style-type: none;
+    width: 26.25px;
+    height: 26.25px;
+    background-color: #FFFFFF;
+    border: 1px solid #707070;
+    margin: 16px 0;
+    border-radius: 50%;
+}
+.active-indicator{
+    background-color: #00402B;
+}
+.card--out {
+    animation: card-out 0.6s cubic-bezier(.8,.2,.1,0.8);
+    z-index: 1;
+}
+.card--next {
+    z-index: 5;
+    transform: translateY(51px) translateX(36px) scale(1);
+}
+@keyframes card-out {
+    0% {
+        z-index: 20;
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-120%) translateX(-40px);
+    }
+    80% {
+        z-index: 1;
+    }
+    100% {
+        transform: translateY(0px) translateX(0px);
+    }
+}
+.card--current {
+    cursor: auto;
+    user-select: auto;
+    position: relative;
+    z-index: 10;
+    opacity: 1;
+    transform : translateY(102px) translateX(72px);
+}

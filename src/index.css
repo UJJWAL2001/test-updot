@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Raleway'; /*a name to be used later*/
+  src: url('./assets/Raleway/static/Raleway-Black.ttf'); /*URL to font*/
+}
+@font-face {
+  font-family: 'Raleway-bold'; /*a name to be used later*/
+  src: url('./assets/Raleway/static/Raleway-Bold.ttf'); /*URL to font*/
+}
+@font-face {
+  font-family: 'Raleway-thin'; /*a name to be used later*/
+  src: url('./assets/Raleway/static/Raleway-ExtraLight.ttf'); /*URL to font*/
+}
+
+body{
+  background-color: #D9D9D9;
+  border: 2px solid #FEFEFE;
+  height: 100vh;
+  font-family: 'Raleway';
+}
+
+
