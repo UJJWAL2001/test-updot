@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/test-updot/static/css/main.3b6b260c.chunk.css",
-    "main.js": "/test-updot/static/js/main.a13644e2.chunk.js",
-    "main.js.map": "/test-updot/static/js/main.a13644e2.chunk.js.map",
+    "main.js": "/test-updot/static/js/main.9c16a6e9.chunk.js",
+    "main.js.map": "/test-updot/static/js/main.9c16a6e9.chunk.js.map",
     "runtime-main.js": "/test-updot/static/js/runtime-main.cc0137e0.js",
     "runtime-main.js.map": "/test-updot/static/js/runtime-main.cc0137e0.js.map",
-    "static/js/2.0905a457.chunk.js": "/test-updot/static/js/2.0905a457.chunk.js",
-    "static/js/2.0905a457.chunk.js.map": "/test-updot/static/js/2.0905a457.chunk.js.map",
+    "static/js/2.6c7befec.chunk.js": "/test-updot/static/js/2.6c7befec.chunk.js",
+    "static/js/2.6c7befec.chunk.js.map": "/test-updot/static/js/2.6c7befec.chunk.js.map",
     "index.html": "/test-updot/index.html",
     "static/css/main.3b6b260c.chunk.css.map": "/test-updot/static/css/main.3b6b260c.chunk.css.map",
-    "static/js/2.0905a457.chunk.js.LICENSE.txt": "/test-updot/static/js/2.0905a457.chunk.js.LICENSE.txt",
+    "static/js/2.6c7befec.chunk.js.LICENSE.txt": "/test-updot/static/js/2.6c7befec.chunk.js.LICENSE.txt",
     "static/media/index.css": "/test-updot/static/media/Raleway-ExtraLight.18e9b7b3.ttf",
     "static/media/home.css": "/test-updot/static/media/triangle.1fad5c2d.svg",
     "static/media/phn1.fbb0b794.png": "/test-updot/static/media/phn1.fbb0b794.png",
@@ -18,8 +18,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.cc0137e0.js",
-    "static/js/2.0905a457.chunk.js",
+    "static/js/2.6c7befec.chunk.js",
     "static/css/main.3b6b260c.chunk.css",
-    "static/js/main.a13644e2.chunk.js"
+    "static/js/main.9c16a6e9.chunk.js"
   ]
 }
